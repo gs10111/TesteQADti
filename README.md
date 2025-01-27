@@ -17,7 +17,7 @@ Este projeto contém testes automatizados desenvolvidos em **Java** utilizando o
 1. Instale o **Java 11** ou superior.
 2. Instale o **Maven**.
 3. Baixe o **ChromeDriver** compatível com a versão do seu navegador Chrome.
-   - Você pode baixar o ChromeDriver através do [site oficial]([https://sites.google.com/chromium.org/driver/](https://chromedriver.storage.googleapis.com/index.html?path=72.0.3626.69/))].
+   - Você pode baixar o ChromeDriver através do [site oficial]([https://sites.google.com/chromium.org/driver/](https://chromedriver.storage.googleapis.com/index.html?path=72.0.3626.69/)
 
 
 ### Passo a Passo
@@ -41,7 +41,7 @@ mvn install( para instalar as dependencias do projeto)
 mvn test
 ```
 ###CENARIOS DE TESTE 
-###1
+### 1
 🎥 Cenário: Sucesso no login da conta
 Contexto: Validar que o login com credenciais corretas permite o acesso à conta do usuário no site "Automation Practice".
 Dado que o usuário esteja na página de login do "Automation Practice" acessando a URL http://www.automationpractice.pl/index.php?controller=authentication&back=my-account
@@ -51,7 +51,7 @@ E clicar no botão de login identificado pelo ID SubmitLogin
 Então a página deve redirecionar o usuário para a URL http://www.automationpractice.pl/index.php?controller=my-account
 E o usuário deve visualizar informações da sua conta.
 
-###2 
+### 2 
 🎥 Cenário: Login com credenciais inválidas
 Contexto: Garantir que o sistema exiba a mensagem de erro apropriada quando o usuário tentar realizar login com credenciais inválidas, mantendo a segurança do sistema.
 Dado que o usuário esteja na página de login do "Automation Practice" acessando a URL http://www.automationpractice.pl/index.php?controller=authentication&back=my-account
@@ -64,7 +64,7 @@ There is 1 error
 Authentication failed.
 E destacar o erro em um elemento com a classe alert alert-danger.
 
-###3 
+### 3 
 🎥 Cenário: Verificar botão de esquecimento de senha
 Contexto: Garantir que o link de recuperação de senha redirecione para a página correta, facilitando a recuperação de contas pelos usuários.
 Dado que o usuário esteja na página de login do "Automation Practice" acessando a URL http://www.automationpractice.pl/index.php?controller=authentication&back=my-account
