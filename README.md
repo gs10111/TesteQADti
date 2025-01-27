@@ -70,12 +70,12 @@ Garantir que o sistema exiba a mensagem de erro apropriada quando o usuário ten
 1. **Dado que** o usuário esteja na página de login do **"Automation Practice"** acessando a URL:  
    [http://www.automationpractice.pl/index.php?controller=authentication&back=my-account](http://www.automationpractice.pl/index.php?controller=authentication&back=my-account)
 2. **Quando** o usuário:
-   - Preencher o campo de email com `contaInvalida@gmail.com`
-   - Preencher o campo de senha com `123456789inv`
+   - Preencher o campo de email com um email inválido (usado no teste: `contaInvalida@gmail.com`)
+   - Preencher o campo de senha com uma senha inválida (usada no teste: `123456789inv`)
    - Clicar no botão de login identificado pelo ID `SubmitLogin`
 3. **Então**:
    - A página deve permanecer na URL:  
-     [http://www.automationpractice.pl/index.php?controller=authentication](http://www.automationpractice.pl/index.php?controller=authentication)
+    http://www.automationpractice.pl/index.php?controller=authentication
    - Exibir a mensagem de erro:  
      ```
      There is 1 error
