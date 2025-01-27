@@ -24,8 +24,8 @@ Este projeto contém testes automatizados desenvolvidos em **Java** utilizando o
 #### 1️⃣ Clone o Repositório
 Execute o seguinte comando no terminal para clonar o projeto:
 ```bash
-git clone https://github.com/seu-repositorio/testes-selenium.git
-cd testes-selenium
+git clone (https://github.com/gs10111/TesteQADti.git)
+cd TesteQADti
 ```
 ### 2️⃣ Configuração do WebDriver
 Coloque o arquivo chromedriver.exe na pasta drivers do projeto (ou crie essa pasta se não existir).
