@@ -94,6 +94,10 @@ public class Testes {
 
         assertTrue(driver.getCurrentUrl().contains(FORGOT_PASSWORD_URL));
 
+        boolean isFormPresent = driver.findElements(By.id("email")).size() > 0;
+
+        assertTrue(isFormPresent, "O formulário de recuperação de senha não está presente.");
+
 
 
     }
