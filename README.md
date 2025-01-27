@@ -35,6 +35,7 @@ Atualize o método setup no arquivo Testes.java com o caminho correto do chromed
 System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
 ```
 ### 3️⃣ Execute os Testes
+os testes e encontram no seguinte diretorio: TesteQADti\TesteQADti\src\test\java\com\Dti\Testes.java
 Via Maven: Execute os seguintes comandos no terminal:
 ```bash
 mvn install( para instalar as dependencias do projeto)
