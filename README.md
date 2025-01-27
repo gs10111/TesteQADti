@@ -17,7 +17,7 @@ Este projeto contém testes automatizados desenvolvidos em **Java** utilizando o
 1. Instale o **Java 11** ou superior.
 2. Instale o **Maven**.
 3. Baixe o **ChromeDriver** compatível com a versão do seu navegador Chrome.
-   - Você pode baixar o ChromeDriver através do [site oficial]([https://sites.google.com/chromium.org/driver/](https://chromedriver.storage.googleapis.com/index.html?path=72.0.3626.69/)
+   - Você pode baixar o ChromeDriver através deste link ([https://sites.google.com/chromium.org/driver/](https://chromedriver.storage.googleapis.com/index.html?path=72.0.3626.69/)
 
 
 ### Passo a Passo
