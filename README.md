@@ -1,4 +1,4 @@
-#Teste para QA DTi
+# Teste para QA DTi
 # Testes Automatizados com Selenium 
 
 ## 📄 Descrição
