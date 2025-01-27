@@ -42,7 +42,8 @@ mvn test
 ```
 ### CENARIOS DE TESTE 
 ### 1
-🎥 Cenário: Sucesso no login da conta
+## 🎥 Cenário: 
+Sucesso no login da conta
 Contexto: Validar que o login com credenciais corretas permite o acesso à conta do usuário no site "Automation Practice".
 Dado que o usuário esteja na página de login do "Automation Practice" acessando a URL http://www.automationpractice.pl/index.php?controller=authentication&back=my-account
 Quando o usuário preencher o campo de email com um email valido( usado no teste testedtiqa@gmail.com )
@@ -52,7 +53,8 @@ Então a página deve redirecionar o usuário para a URL http://www.automationpr
 E o usuário deve visualizar informações da sua conta.
 
 ### 2 
-🎥 Cenário: Login com credenciais inválidas
+## 🎥 Cenário: 
+Login com credenciais inválidas
 Contexto: Garantir que o sistema exiba a mensagem de erro apropriada quando o usuário tentar realizar login com credenciais inválidas, mantendo a segurança do sistema.
 Dado que o usuário esteja na página de login do "Automation Practice" acessando a URL http://www.automationpractice.pl/index.php?controller=authentication&back=my-account
 Quando o usuário preencher o campo de email com contaInvalida@gmail.com
@@ -65,7 +67,8 @@ Authentication failed.
 E destacar o erro em um elemento com a classe alert alert-danger.
 
 ### 3 
-🎥 Cenário: Verificar botão de esquecimento de senha
+##🎥 Cenário: 
+Verificar botão de esquecimento de senha
 Contexto: Garantir que o link de recuperação de senha redirecione para a página correta, facilitando a recuperação de contas pelos usuários.
 Dado que o usuário esteja na página de login do "Automation Practice" acessando a URL http://www.automationpractice.pl/index.php?controller=authentication&back=my-account
 Quando o usuário clicar no link "Forgot your password?" identificado pelo texto do link
