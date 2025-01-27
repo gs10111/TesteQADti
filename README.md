@@ -29,7 +29,7 @@ git clone (https://github.com/gs10111/TesteQADti.git)
 cd TesteQADti
 ```
 ### 2️⃣ Configuração do WebDriver
-Coloque o arquivo chromedriver.exe na pasta drivers do projeto (ou crie essa pasta se não existir).
+Coloque o arquivo chromedriver.exe na pasta drivers do seu computador (ou crie essa pasta se não existir).
 Atualize o método setup no arquivo Testes.java com o caminho correto do chromedriver:
 ``` java
 System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
