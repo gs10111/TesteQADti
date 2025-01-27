@@ -76,12 +76,12 @@ Garantir que o sistema exiba a mensagem de erro apropriada quando o usuário ten
 3. **Então**:
    - A página deve permanecer na URL:  
     http://www.automationpractice.pl/index.php?controller=authentication
+  - Destacar o erro em um elemento com a classe `alert alert-danger`.
    - Exibir a mensagem de erro:  
      ```
      There is 1 error
      Authentication failed.
      ```
-   - Destacar o erro em um elemento com a classe `alert alert-danger`.
 
 ---
 
