@@ -40,7 +40,7 @@ Via Maven: Execute os seguintes comandos no terminal:
 mvn install( para instalar as dependencias do projeto)
 mvn test
 ```
-###CENARIOS DE TESTE 
+### CENARIOS DE TESTE 
 ### 1
 🎥 Cenário: Sucesso no login da conta
 Contexto: Validar que o login com credenciais corretas permite o acesso à conta do usuário no site "Automation Practice".
