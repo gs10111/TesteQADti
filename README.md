@@ -1,4 +1,5 @@
-# Testes Automatizados com Selenium para o Site Automation Practice
+#Teste para QA DTi
+# Testes Automatizados com Selenium 
 
 ## 📄 Descrição
 Este projeto contém testes automatizados desenvolvidos em **Java** utilizando o **Selenium WebDriver** para validar as funcionalidades de login e recuperação de senha do site Automation Practice. Os testes foram estruturados com **JUnit 5** para garantir a execução confiável e organizada.
