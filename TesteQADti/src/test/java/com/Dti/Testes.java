@@ -21,12 +21,13 @@ public class Testes {
     private static final String VALID_PASSWORD = "vKFx797187:~";
     private static final String INVALID_EMAIL = "contaInvalida@gmail.com";
     private static final String INVALID_PASSWORD = "123456789inv";
+    private static final String INVALID_AUTHENTICATION_URL = "http://www.automationpractice.pl/index.php?controller=authentication";
 
 
     @BeforeEach
     public void setup() {
 
-        System.setProperty("webdriver.msedgedriver", "drivers/msedgedriver.exe");
+        System.setProperty("webdriver.chromedriver", "drivers/chromedriver.exe");
 
         driver = new ChromeDriver();
 
@@ -78,6 +79,8 @@ public class Testes {
         String errorMessage = driver.findElement(By.cssSelector(".alert.alert-danger")).getText();
 
         assertTrue(errorMessage.contains("There is 1 error\n" + "Authentication failed."));
+
+        assertTrue(driver.getCurrentUrl().contains(INVALID_AUTHENTICATION_URL));
 
     }
 
