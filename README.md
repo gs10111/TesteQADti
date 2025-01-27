@@ -36,7 +36,7 @@ System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
 ### 3️⃣ Execute os Testes
 Via Maven: Execute os seguintes comandos no terminal:
 ```bash
-mvn install( para instalar as dependencias do projeto 
+mvn install( para instalar as dependencias do projeto)
 mvn test
 ```
 #CENARIOS DE TESTE 
